@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import {Item} from './types/Item'
 import * as Components from './App.styles'
+import { ListItem } from './components/ListItem';
 
 const App = () => {
 
@@ -16,7 +17,8 @@ const App = () => {
 
 
         {list.map((item,index) =>(
-          <div>{item.name}</div>
+          <ListItem key={index} item={item}/>
+          
         ))}
       </Components.AreaTask>
     </Components.Container>

@@ -5,10 +5,11 @@ export const Container = styled.div`
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 48%, rgba(1,11,87,0.9970815373563219) 100%);
     min-height: 100vh;
+    color:white;
 `
 
 export const AreaTask = styled.div`
-    margin: auto;
+    margin:auto;
     max-width: 980px;
     padding: 10px;
 `
