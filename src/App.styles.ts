@@ -2,10 +2,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 48%, rgba(1,11,87,0.9970815373563219) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 48%, rgba(1,7,57,0.9970815373563219) 100%);
     min-height: 100vh;
     color:white;
+    font-family: 'Roboto', sans-serif;
 `
 
 export const AreaTask = styled.div`
